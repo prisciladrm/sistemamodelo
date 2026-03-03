@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#434242;
+    background-color: #faf9f9;    
+}
+header {
+    padding: 60px;
+    background-color: #1abc9c;
+    text-align: center;
+    color: #DCDCDC;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 14px 20px;
+    display: flex; 
+    background-color: #3c0449;
+    justify-content:center;
+    align-items:center;
+    margin: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    padding: 14px ;
+    color:#f8f7f8;
+}
+nav ul li a:hover {
+    color:#DCDCDC;
+    background-color: #480457;
+}
+.btnteste1 {
+  background-color: #37064b;   /* cor do botão */
+  color: white;                /* cor do texto */
+  padding: 12px 24px;          /* espaço interno */
+  border: none;                /* remove borda padrão */
+  border-radius: 8px;          /* cantos arredondados */
+    font-size: 12px;
+  cursor: pointer;             /* mãozinha ao passar o mouse */
+  transition: 0.3s;            /* animação suave */
+}
+.btnteste1:hover {
+    background-color: #4d2f5c;
+}
+.btnteste1:active {
+    transform: scale(0.95);
+}
+
+.btnteste2 {
+    background: transparent;
+    color:#bfbebe;
+    border: 2px solid #3d3b3d;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+.btnteste2:hover {
+    background-color: #82628c;
+}
+.btnteste2:active {
+    transform: scale(0.95);
+}
+
+.galeria img{
+    width:200px;
+    position: relative;
+}
